@@ -1,0 +1,95 @@
+body{
+    
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+.top
+{
+    background: #FFE7CC;
+    position: relative;
+    height: 30px;
+}
+.cont
+{
+    display: flex;
+    align-items: center;
+    justify-content: right;
+    height: 30px;
+
+}
+.logo
+{
+    position: absolute;
+    left:0;
+    margin:1px 1px;
+    width:30px;
+    height: 25px;
+    border-radius: 25%;
+    
+}
+.medium 
+{
+    position: relative;
+    background:#F8CBA6;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    width: 100%;
+    height: 50%;
+
+}
+.text h3{
+    position:absolute;
+    top:10%;
+    left:5%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #fff;
+}
+.text h4{
+    position:absolute;
+    top:20%;
+    left:10%;
+    font-family: cursive;
+    color: #fff;
+}
+.medium h2{
+    position: absolute;
+    color: #fff;
+    bottom:15%;
+    left: 50%;
+}
+.medium p{
+    position: absolute;
+    bottom: 5%;
+    left: 55%;
+    color: #fff;
+    padding: 10px;
+    
+}
+.medium img
+{
+    width: 100%;
+    height: 600px;
+}
+.bottom
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #F8CBA6;
+    width: 100%;
+    height: 30px;
+}
+.btn
+{
+    color: #f0740e;
+    text-decoration: none;
+    padding: 0 20px;
+}
+.btn:hover
+{
+    background:transparent;
+    color: rgb(55, 43, 2);
+    width:fit-content;
+}
