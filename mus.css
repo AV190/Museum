@@ -55,11 +55,11 @@ body{
 }
 .medium p{
     position: absolute;
-    bottom: 10%;
+    bottom: 15%;
     left: 50%;
     color: #fff;
     padding: 10px;
-    
+    font-size: 18px;
 }
 .medium img
 {
