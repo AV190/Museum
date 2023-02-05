@@ -1,0 +1,109 @@
+body{
+    
+    margin: 0;
+    padding: 0;
+}
+.top
+{
+    background: #151965;
+    position: relative;
+    height: 30px;
+}
+.cont
+{
+    display: flex;
+    align-items: center;
+    justify-content: right;
+    height: 30px;
+
+}
+.logo
+{
+    position: absolute;
+    left:0;
+    margin:1px 1px;
+    width:30px;
+    height: 25px;
+    border-radius: 25%;
+    
+}
+.medium 
+{
+    position: relative;
+    margin: 0;
+    background-image: url(art2.png);
+    font-family: 'Itim', cursive;
+    font-weight: bold;
+    width: 100%;
+    height: 50%;
+
+}
+.text h3{
+    position:absolute;
+    top:6%;
+    left:5%;
+    font-family: 'Dancing Script', cursive;
+    font-size: 30px;
+    color:#f2f973;
+}
+.text h4{
+    position:absolute;
+    top:20%;
+    left:20%;
+    font-family: 'Poppins', sans-serif;
+    color:#f2f973;
+}
+.medium p{
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    color: #fff;
+    padding: 10px;
+    font-size: 22px;
+}
+.medium img
+{
+    width: 100%;
+    height: 600px;
+}
+.bottom
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #151965;
+    width: 100%;
+    height: 30px;
+}
+.btn
+{
+    color: #FBFD8A;
+    text-decoration: none;
+    padding: 0 20px;
+}
+.btn:hover
+{
+    background:transparent;
+    color: #fff;
+    width:fit-content;
+}
+@media only screen and (max-width: 820px) {
+    .medium{
+        background-image: url(art1.webp);
+
+    }
+    .medium h3{
+        color: #fff;
+        font-size: 20px;
+
+    }
+    .medium h4{
+        color: #fff;
+        font-size: small;
+        top:18%
+    }
+    .btn{
+        padding: 0 8px;
+    }
+}
+
